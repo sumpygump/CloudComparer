@@ -1227,8 +1227,7 @@ services:
             ref: https://cloud.google.com/database-migration
             icon: Generic-GCP.png
       - ibm:
-          - name: Lift CLI
-            ref: https://www.lift-cli.cloud.ibm.com/#docs
+          - name: IBM Lift
             ref: https://www.ibm.com/cloud/lift
             icon: ibmcloud.png
           - name: VPC+ Cloud Migration
@@ -1772,7 +1771,7 @@ services:
             ref: https://cloud.google.com/hybrid-connectivity
             icon: Cloud-Interconnect.png
       - ibm:
-          - name: Direct Link
+          - name: Direct Link on Classic
             ref: https://cloud.ibm.com/docs/direct-link
             icon: ibmcloud.png
       - oracle:
@@ -1806,7 +1805,7 @@ services:
             ref: https://cloud.google.com/load-balancing/
             icon: Cloud-Load-Balancing.png
       - ibm:
-          - name: IBM Cloud Load Balancers
+          - name: Load Balancers for Classic
             ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
             icon: ibmcloud.png
           - name: IBM Cloud Load Balancer for VPC
@@ -1890,9 +1889,8 @@ services:
           - name: DevOps Insights
             ref: https://www.ibm.com/cloud/devops-insights
             icon: ibmcloud.png
-          - name: Globalization Pipeline
-            ref: https://www.ibm.com/cloud/globalization-pipeline
-            ref: https://cloud.ibm.com/docs/services/GlobalizationPipeline?topic=GlobalizationPipeline-globalizationpipeline#globalizationpipeline
+          - name: IBM Cloud Continuous Delivery
+            ref: https://www.ibm.com/products/continuous-delivery
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Visual Builder Studio
@@ -2098,8 +2096,8 @@ services:
             ref: https://cloud.google.com/debugger/
             icon: Debugger.png
       - ibm:
-          - name: Monitoring
-            ref: https://cloud.ibm.com/catalog/services/ibm-cloud-monitoring
+          - name: IMG Cloud Monitoring
+            ref: https://cloud.ibm.com/observability/catalog/ibm-cloud-monitoring
             icon: ibmcloud.png
           - name: IBM Cloud Log Analysis with LogDNA
             ref: https://www.ibm.com/cloud/log-analysis
@@ -2569,7 +2567,6 @@ services:
             icon: Cloud-Identity-Aware-Proxy.png
       - ibm:
           - name: Identity & Access Management
-            ref: https://cloud.ibm.com/docs/iam?topic=iam-iamoverview
             ref: https://www.ibm.com/services/identity-access-management
             icon: ibmcloud.png
       - oracle:
@@ -3251,8 +3248,8 @@ services:
             ref: https://cloud.google.com/looker
             icon: none.png
       - ibm:
-          - name: Watson Studio
-            ref: https://cloud.ibm.com/catalog/services/watson-studio
+          - name: watsonx.ai Studio
+            ref: https://cloud.ibm.com/catalog/services/watsonxai-studio
             icon: ibmcloud.png
           - name: Watson Query
             ref: https://cloud.ibm.com/catalog/services/watson-query
@@ -3315,8 +3312,8 @@ services:
           - name: DataStage
             ref: https://cloud.ibm.com/catalog/services/datastage
             icon: ibmcloud.png
-          - name: Watson Knowledge Catalog
-            ref: https://cloud.ibm.com/catalog/services/watson-knowledge-catalog
+          - name: IBM Knowledge Catalog
+            ref: https://cloud.ibm.com/catalog/services/ibm-knowledge-catalog
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure Data Flow
@@ -3442,10 +3439,7 @@ services:
           - name: Natural Language Understanding
             ref: https://cloud.ibm.com/catalog/services/natural-language-understanding
             icon: ibmcloud.png
-          - name: Language Translator
-            ref: https://cloud.ibm.com/catalog/services/language-translator
-            icon: ibmcloud.png
-          - name: Watson Assistant
+          - name: watsonx Assistant
             ref: https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-getting-started
             icon: ibmcloud.png
           - name: Watson Discovery
@@ -4370,7 +4364,7 @@ services:
             ref:
             icon: none.png
       - ibm:
-          - name: Sendgrid
+          - name: IBM Cloud Email Delivery for Classic
             ref: https://cloud.ibm.com/docs/email-delivery?topic=email-delivery-getting-started-email-delivery
             icon: ibmcloud.png
       - oracle:
@@ -4686,8 +4680,8 @@ services:
             ref: https://cloud.google.com/solutions/iot/
             icon: Google-Cloud-Platform.png
       - ibm:
-          - name: Internet of Things Platform (deprecated)
-            ref: https://cloud.ibm.com/docs/services/IoT/getting-started.html
+          - name: Internet of Things Platform
+            ref: https://cloud.ibm.com/catalog/services/internet-of-things-platform
             icon: ibmcloud.png
           - name: Remote asset monitoring with IBM Maximo Application Suite
             ref: https://www.ibm.com/products/maximo/remote-monitoring
