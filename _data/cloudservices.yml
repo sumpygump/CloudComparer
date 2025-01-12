@@ -2096,7 +2096,7 @@ services:
             ref: https://cloud.google.com/debugger/
             icon: Debugger.png
       - ibm:
-          - name: IMG Cloud Monitoring
+          - name: IBM Cloud Monitoring
             ref: https://cloud.ibm.com/observability/catalog/ibm-cloud-monitoring
             icon: ibmcloud.png
           - name: IBM Cloud Log Analysis with LogDNA
